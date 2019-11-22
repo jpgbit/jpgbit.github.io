@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://beyno.github.io</id>
     <title>QianChen</title>
-    <updated>2019-11-22T12:57:50.142Z</updated>
+    <updated>2019-11-22T13:00:10.460Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://beyno.github.io"/>
     <link rel="self" href="https://beyno.github.io/atom.xml"/>
@@ -12,8 +12,8 @@
     <rights>All rights reserved 2019, QianChen</rights>
     <entry>
         <title type="html"><![CDATA[V2Ray]]></title>
-        <id>https://beyno.github.io/post/hello-gridea</id>
-        <link href="https://beyno.github.io/post/hello-gridea">
+        <id>https://beyno.github.io/post/v2ray</id>
+        <link href="https://beyno.github.io/post/v2ray">
         </link>
         <updated>2018-12-11T16:00:00.000Z</updated>
         <content type="html"><![CDATA[<p>今天推荐 V2Ray 是肯定有原因的。</p>
@@ -24,7 +24,7 @@
 当然你如果看完这篇文章还是想用 SS/SSR ，推荐使用 SS ，毕竟 SSR 作者已经被请喝茶了，源代码也删除了，SS 还在维护，</p>
 <p>🚩安装 V2Ray😏</p>
 <p>输入下面命令回车，你可以复制过去，然后在 Xshell 界面按 Shift + Insert 即可粘贴，不能按 Ctrl + V 的，Mac 下可以直接 commend + V 粘贴。<br>
-<img src="https://beyno.github.io/post-images/1574423411219.png" alt=""><br>
+<img src="https://beyno.github.io/post-images/1574427573807.png" alt=""><br>
 bash &lt;(curl -s -L https://git.io/v2ray.sh)</p>
 <p>如果提示 curl: command not found ，那是因为你的 VPS 没装 Curl<br>
 ubuntu/debian 系统安装 Curl 方法: apt-get update -y &amp;&amp; apt-get install curl -y<br>
@@ -34,7 +34,7 @@ centos 系统安装 Curl 方法: yum update -y &amp;&amp; yum install curl -y<br
 选择传输协议，如果没有特别的需求，使用默认的 TCP 传输协议即可，直接回车<br>
 选择端口，如果没有特别的需求，使用默认的端口即可，直接回车<br>
 是否屏蔽广告，除非你真的需要，一般来说，直接回车即可，使用的是 kcp 协议，至于什么是 kcp 请自行。。。<br>
-<img src="https://beyno.github.io/post-images/1574423477875.webp" alt=""></p>
+<img src="https://beyno.github.io/post-images/1574427579718.webp" alt=""></p>
 <p>如上图所示，V2Ray 配置信息，那么现在你可以测试一下了，看看是否能正常使用。</p>
 <p>如果你使用过 V2Ray 某些客户端，那么现在也可以测试一下配置了。(备注，可能某些 V2Ray 客户端的选项或描述略有不同，但事实上，上面的 V2Ray 配置信息已经足够详细，由于客户端的不同，请对号入座。)</p>
 ]]></content>
