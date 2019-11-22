@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://beyno.github.io</id>
     <title>QianChen</title>
-    <updated>2019-11-22T13:07:30.176Z</updated>
+    <updated>2019-11-22T13:12:03.548Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://beyno.github.io"/>
     <link rel="self" href="https://beyno.github.io/atom.xml"/>
@@ -10,6 +10,29 @@
     <logo>https://beyno.github.io/images/avatar.png</logo>
     <icon>https://beyno.github.io/favicon.ico</icon>
     <rights>All rights reserved 2019, QianChen</rights>
+    <entry>
+        <title type="html"><![CDATA[什么是SEO]]></title>
+        <id>https://beyno.github.io/post/shi-me-shi-seo</id>
+        <link href="https://beyno.github.io/post/shi-me-shi-seo">
+        </link>
+        <updated>2019-11-22T13:10:36.000Z</updated>
+        <content type="html"><![CDATA[<p>SEO英文是Search Engine Optimization，翻译过来的意思搜索引擎优化。</p>
+<p>从广义上讲，只要存在搜索的地方，就存在SEO，数据的复杂程度决定了SEO的复杂程度。做电商的朋友都知道，淘宝有SEO，京东有SEO，苏宁易购有SEO等等，每个平台都有SEO准则。更广义的讲，只要网站有搜索框，可能就所在SEO，怎么把最优化的搜索结果呈现给客户，也是站内SEO的重点。还有就是全网的SEO，这类的代表就是各大搜索引擎了，也就是我们传统的SEOer所熟知的SEO。</p>
+<p>SEO的工作原理</p>
+<p>搜索引擎优化是一种利用搜索引擎的搜索规则来提高目前网站在有关搜索引擎内的自然排名的方式。<br>
+SEO的分类</p>
+<p>SEO分为站内SEO与站外SEO两种。站内主要负责：文章的编辑,站内链接跳转的优化。站外：主要负责外联的建立以及友情链接的交换。</p>
+<p>一：站内优化</p>
+<p>1:META标签优化：例如：TITLE，KEYWORDS，DESCRIPTION等的优化<br>
+2:内部链接的优化，包括相关性链接（Tag标签），锚文本链接，各导航链接，及图片链接<br>
+3:网站内容更新：每天保持站内的更新(主要是文章的更新等)</p>
+<p>二：站外优化</p>
+<p>1:外部链接类别：友情链接、博客、论坛、B2B、新闻、分类信息、贴吧、知道、百科、相关信息网等尽量保持链接的多样性</p>
+<p>2:外链运营：每天添加一定数量的外部链接，使关键词排名稳定提升。</p>
+<p>3:外链选择：与一些和你网站相关性比较高,整体质量比较好的网站交换友情链接,巩固稳定关键词排名</p>
+<p>seo是什么的终极答案-坚持用户体验，给用户提供有价值的信息和资料</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[V2Ray]]></title>
         <id>https://beyno.github.io/post/v2ray</id>
