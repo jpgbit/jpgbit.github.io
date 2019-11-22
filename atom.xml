@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://beyno.github.io</id>
     <title>QianChen</title>
-    <updated>2019-11-22T13:12:03.548Z</updated>
+    <updated>2019-11-22T13:17:52.812Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://beyno.github.io"/>
     <link rel="self" href="https://beyno.github.io/atom.xml"/>
@@ -10,6 +10,46 @@
     <logo>https://beyno.github.io/images/avatar.png</logo>
     <icon>https://beyno.github.io/favicon.ico</icon>
     <rights>All rights reserved 2019, QianChen</rights>
+    <entry>
+        <title type="html"><![CDATA[KMS]]></title>
+        <id>https://beyno.github.io/post/kms</id>
+        <link href="https://beyno.github.io/post/kms">
+        </link>
+        <updated>2019-11-22T13:16:07.000Z</updated>
+        <content type="html"><![CDATA[<p>什么是KMS?<br>
+Key Management Service（简称：KMS），这个功能是在 Windows Vista 之后的产品中的一种新型产品激活机制，目的是为了 Microsoft 更好的遏制非法软件授权行为 (盗版)。<br>
+[scode type=&quot;green&quot;] KMS 激活有两种方法，分别为 vlm­csd 和 py-kms，本文使用 vlm­csd 进行搭建 [/​scode]</p>
+<p>为什么要自建KMS激活服务？<br>
+虽然现在网络上已经涌现了大批的激活工具，但是存在许多不安定因素，例如后门或者病毒等，会造成较大的安全隐患，而自己搭建 Kms 激活服务则可以避免这类问题～</p>
+<p>注意：只能激活 VL 版本的 Windows<br>
+VL，就是 VOL，Volume Licensing for Organizations 的缩写，中文翻译为团体批量许可证</p>
+<p>环境：CentOS 7.5<br>
+[but­ton color=&quot;suc­cess&quot; icon=&quot;glyph­icon glyph­icon-file&quot;]Vlmcsd[/but­ton]<br>
+首先使用下面命令确认机器的 CPU 架构</p>
+<p>cat /proc/cpuinfo<br>
+这是我机器的信息</p>
+<p>1.png<br>
+1.png<br>
+首先从Github下载项目文件<br>
+yum -y install wget<br>
+wget https://github.com/Wind4/vlmcsd/releases/download/svn1111/binaries.tar.gz<br>
+解压安装包</p>
+<p>tar -xvf binaries.tar.gz<br>
+如果你机器的架构为 Intel，cd 到如下目录，否则的话需要在 binaries 目录内找到对应你机器 CPU 架构的目录</p>
+<p>cd binaries/Linux/intel/static<br>
+启动服务</p>
+<p>./vlmcsd-x64-musl-static<br>
+如果你的机器不是 64 位系统，则需要内找到对应系统位数的可执行文件来运行<br>
+因为 vlmcsd 运行后会占用 1688 端口，请在防火墙放行 1688 端口，或者关闭防火墙，所以我们可以输入以下命令查看是否成功启动：</p>
+<p>netstat -lnp<br>
+激活<br>
+以管理员身份运行 CMD</p>
+<p>slmgr /skms 你服务器的IP或者域名<br>
+slmgr /ato<br>
+slmgr /xpr<br>
+到这你的 KMS 服务应该可以正常使用了，激活周期为 180 天，到期后如果你的 KMS 服务器还在运行，Windows 将自动进行激活</p>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=541115552&auto=1&height=66"></iframe>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[什么是SEO]]></title>
         <id>https://beyno.github.io/post/shi-me-shi-seo</id>
