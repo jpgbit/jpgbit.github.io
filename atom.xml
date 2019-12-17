@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://beyno.github.io</id>
     <title>QianChen</title>
-    <updated>2019-12-17T13:41:55.247Z</updated>
+    <updated>2019-12-17T13:43:33.441Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://beyno.github.io"/>
     <link rel="self" href="https://beyno.github.io/atom.xml"/>
@@ -10,6 +10,30 @@
     <logo>https://beyno.github.io/images/avatar.png</logo>
     <icon>https://beyno.github.io/favicon.ico</icon>
     <rights>All rights reserved 2019, QianChen</rights>
+    <entry>
+        <title type="html"><![CDATA[为什么百度搜索只收录网站首页不收内]]></title>
+        <id>https://beyno.github.io/post/wei-shi-me-bai-du-sou-suo-zhi-shou-lu-wang-zhan-shou-ye-bu-shou-nei</id>
+        <link href="https://beyno.github.io/post/wei-shi-me-bai-du-sou-suo-zhi-shou-lu-wang-zhan-shou-ye-bu-shou-nei">
+        </link>
+        <updated>2019-12-17T13:43:06.000Z</updated>
+        <content type="html"><![CDATA[<p>一般来说 新站刚上线 起码要一两个月才会开始收录 前期一般只是收录一个首页而已，对于这个情况，没有别的办法，因为百度为了防止垃圾站的泛滥，特地把新站的审核时间拉长，所以，如果你操作的是新站，那么收录量少，不用紧张，只要你老老实实的提供优质内容，那么慢慢百度就会开始收录你的内页了</p>
+<p>新站内页收录时间会长一些，大概在首页收录后半个月到一个月开始收录内容，所以不讨论新站的内页收录。而如果是超过3个月的网站不收录内页主要有以下几个情况：</p>
+<p>内页质量很低<br>
+内容质量非常低，根本没有阅读价值。文章排版很乱、字体大小和颜色没有统一，文章内容里面还穿插一些没必要的锚文字链接以及一些广告链接。</p>
+<p>(1)首先要把上面提到的项目全部修改，并且给文章增加可读性以及附加价值。</p>
+<p>(2)分析长尾词需求，布局内容，从需求上解决用户的问题</p>
+<p>(3)丰富网页内容</p>
+<p>样板文字太多，页面相似度太大<br>
+样板文字就是指那些大部分页面都会有的内容，比如竖导航、推荐文章、联系我们、上一篇下一篇等等。这些文字越多，页面之间的相似度就越大。而有的页面除了这些内容就只剩下一个产品图片，这样的页面相似度100%。搜索引擎为什么要收录那么多一模一样的内容呢?所以一定要减少样板文字，增加每个页面的质量。</p>
+<p>内页权重不够<br>
+内页权重不够或者网站权重不够。每一个网页被收录都需要在权重值达到一定值以后才会被搜索引擎收录，如果网站权重不够就不能传递给网页不错的权重。解决办法就是多做一些高权重外链或者给栏目页、内页做一些友情链接和外链。</p>
+<p>网站信用度低<br>
+新站的信用度主要来自于更新频率和内容质量，老站的信用度来自于内容质量，所以去做内容。内容质量很好，用户乐意点击，搜索引擎怎么会不收录?</p>
+<p>内容工作的安排<br>
+对于一个新站来说，前期1个月内每天3-5篇高质量的文章就可以了，按照这个进度推进即可，千万不要急于求量，也不要一天更新很多篇，然后很长时间不更新，这样保持一定的频率来更新</p>
+<p>百度蜘蛛是可以培养的，百度蜘蛛就会每天不请自来，每次来都能收获新鲜的高质量内容，这样的网站是百度很青睐的，内容得分就会很高了，收录就是很自然的，做好了基本就秒收了。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[搜索引擎查询指令大全]]></title>
         <id>https://beyno.github.io/post/sou-suo-yin-qing-cha-xun-zhi-ling-da-quan</id>
