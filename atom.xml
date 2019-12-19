@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jpgbit.github.io</id>
     <title>QianChen</title>
-    <updated>2019-12-19T08:18:43.830Z</updated>
+    <updated>2019-12-19T08:19:54.355Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://jpgbit.github.io"/>
     <link rel="self" href="https://jpgbit.github.io/atom.xml"/>
@@ -16,7 +16,7 @@
         <link href="https://jpgbit.github.io/post/yan-se">
         </link>
         <updated>2019-12-19T08:17:45.000Z</updated>
-        <content type="html"><![CDATA[<!DOCTYPE html>
+        <content type="html"><![CDATA[<p>/*<!DOCTYPE html></p>
 <html>
 	<head>
 		<meta charset="utf-8">
@@ -66,7 +66,7 @@
 &lt;/body&gt;
 </code></pre>
 </html>
-]]></content>
+*/]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[时间]]></title>
