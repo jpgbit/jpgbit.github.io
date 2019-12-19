@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://beyno.github.io</id>
+    <id>https://jpgbit.github.io</id>
     <title>QianChen</title>
-    <updated>2019-12-19T07:54:31.927Z</updated>
+    <updated>2019-12-19T08:09:41.738Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://beyno.github.io"/>
-    <link rel="self" href="https://beyno.github.io/atom.xml"/>
+    <link rel="alternate" href="https://jpgbit.github.io"/>
+    <link rel="self" href="https://jpgbit.github.io/atom.xml"/>
     <subtitle>温故而知新</subtitle>
-    <logo>https://beyno.github.io/images/avatar.png</logo>
-    <icon>https://beyno.github.io/favicon.ico</icon>
+    <logo>https://jpgbit.github.io/images/avatar.png</logo>
+    <icon>https://jpgbit.github.io/favicon.ico</icon>
     <rights>All rights reserved 2019, QianChen</rights>
     <entry>
         <title type="html"><![CDATA[卸载阿里云腾讯云服务器监控系统教程]]></title>
-        <id>https://beyno.github.io/post/xie-zai-a-li-yun-teng-xun-yun-fu-wu-qi-jian-kong-xi-tong-jiao-cheng</id>
-        <link href="https://beyno.github.io/post/xie-zai-a-li-yun-teng-xun-yun-fu-wu-qi-jian-kong-xi-tong-jiao-cheng">
+        <id>https://jpgbit.github.io/post/xie-zai-a-li-yun-teng-xun-yun-fu-wu-qi-jian-kong-xi-tong-jiao-cheng</id>
+        <link href="https://jpgbit.github.io/post/xie-zai-a-li-yun-teng-xun-yun-fu-wu-qi-jian-kong-xi-tong-jiao-cheng">
         </link>
         <updated>2019-12-17T13:46:13.000Z</updated>
         <content type="html"><![CDATA[<pre><code>众所周知，阿里云、腾讯云的服务器都自带监控（AliYunDun/阿里云盾/安骑士），大家都不想自己的所作所为都被监控着，比如我在上面安装XX服务，一旦云监控查到，会被警告，很麻烦，我们总想着自己买的东西能够完全自己做主，所以我们需要让他的监控失效，卸载监控！
@@ -37,8 +37,8 @@ rm -rf /usr/local/aegis*</p>
     </entry>
     <entry>
         <title type="html"><![CDATA[为什么百度搜索只收录网站首页不收内]]></title>
-        <id>https://beyno.github.io/post/wei-shi-me-bai-du-sou-suo-zhi-shou-lu-wang-zhan-shou-ye-bu-shou-nei</id>
-        <link href="https://beyno.github.io/post/wei-shi-me-bai-du-sou-suo-zhi-shou-lu-wang-zhan-shou-ye-bu-shou-nei">
+        <id>https://jpgbit.github.io/post/wei-shi-me-bai-du-sou-suo-zhi-shou-lu-wang-zhan-shou-ye-bu-shou-nei</id>
+        <link href="https://jpgbit.github.io/post/wei-shi-me-bai-du-sou-suo-zhi-shou-lu-wang-zhan-shou-ye-bu-shou-nei">
         </link>
         <updated>2019-12-17T13:43:06.000Z</updated>
         <content type="html"><![CDATA[<p>一般来说 新站刚上线 起码要一两个月才会开始收录 前期一般只是收录一个首页而已，对于这个情况，没有别的办法，因为百度为了防止垃圾站的泛滥，特地把新站的审核时间拉长，所以，如果你操作的是新站，那么收录量少，不用紧张，只要你老老实实的提供优质内容，那么慢慢百度就会开始收录你的内页了</p>
@@ -61,8 +61,8 @@ rm -rf /usr/local/aegis*</p>
     </entry>
     <entry>
         <title type="html"><![CDATA[搜索引擎查询指令大全]]></title>
-        <id>https://beyno.github.io/post/sou-suo-yin-qing-cha-xun-zhi-ling-da-quan</id>
-        <link href="https://beyno.github.io/post/sou-suo-yin-qing-cha-xun-zhi-ling-da-quan">
+        <id>https://jpgbit.github.io/post/sou-suo-yin-qing-cha-xun-zhi-ling-da-quan</id>
+        <link href="https://jpgbit.github.io/post/sou-suo-yin-qing-cha-xun-zhi-ling-da-quan">
         </link>
         <updated>2019-12-17T13:40:33.000Z</updated>
         <content type="html"><![CDATA[<p>一、site<br>
@@ -108,8 +108,8 @@ related:hzaima.com我们就可以得到Google 所认为的与大明seo有关联�
     </entry>
     <entry>
         <title type="html"><![CDATA[KMS]]></title>
-        <id>https://beyno.github.io/post/kms</id>
-        <link href="https://beyno.github.io/post/kms">
+        <id>https://jpgbit.github.io/post/kms</id>
+        <link href="https://jpgbit.github.io/post/kms">
         </link>
         <updated>2019-11-22T13:16:07.000Z</updated>
         <content type="html"><![CDATA[<p>什么是KMS?<br>
@@ -148,8 +148,8 @@ slmgr /xpr<br>
     </entry>
     <entry>
         <title type="html"><![CDATA[什么是SEO]]></title>
-        <id>https://beyno.github.io/post/shi-me-shi-seo</id>
-        <link href="https://beyno.github.io/post/shi-me-shi-seo">
+        <id>https://jpgbit.github.io/post/shi-me-shi-seo</id>
+        <link href="https://jpgbit.github.io/post/shi-me-shi-seo">
         </link>
         <updated>2019-11-22T13:10:36.000Z</updated>
         <content type="html"><![CDATA[<p>SEO英文是Search Engine Optimization，翻译过来的意思搜索引擎优化。</p>
@@ -171,8 +171,8 @@ SEO的分类</p>
     </entry>
     <entry>
         <title type="html"><![CDATA[V2Ray]]></title>
-        <id>https://beyno.github.io/post/v2ray</id>
-        <link href="https://beyno.github.io/post/v2ray">
+        <id>https://jpgbit.github.io/post/v2ray</id>
+        <link href="https://jpgbit.github.io/post/v2ray">
         </link>
         <updated>2018-12-11T16:00:00.000Z</updated>
         <content type="html"><![CDATA[<p>今天推荐 V2Ray 是肯定有原因的。</p>
@@ -183,7 +183,7 @@ SEO的分类</p>
 当然你如果看完这篇文章还是想用 SS/SSR ，推荐使用 SS ，毕竟 SSR 作者已经被请喝茶了，源代码也删除了，SS 还在维护，</p>
 <p>🚩安装 V2Ray😏</p>
 <p>输入下面命令回车，你可以复制过去，然后在 Xshell 界面按 Shift + Insert 即可粘贴，不能按 Ctrl + V 的，Mac 下可以直接 commend + V 粘贴。<br>
-<img src="https://beyno.github.io/post-images/1574427573807.png" alt=""><br>
+<img src="https://jpgbit.github.io/post-images/1574427573807.png" alt=""><br>
 bash &lt;(curl -s -L https://git.io/v2ray.sh)</p>
 <p>如果提示 curl: command not found ，那是因为你的 VPS 没装 Curl<br>
 ubuntu/debian 系统安装 Curl 方法: apt-get update -y &amp;&amp; apt-get install curl -y<br>
@@ -193,7 +193,7 @@ centos 系统安装 Curl 方法: yum update -y &amp;&amp; yum install curl -y<br
 选择传输协议，如果没有特别的需求，使用默认的 TCP 传输协议即可，直接回车<br>
 选择端口，如果没有特别的需求，使用默认的端口即可，直接回车<br>
 是否屏蔽广告，除非你真的需要，一般来说，直接回车即可，使用的是 kcp 协议，至于什么是 kcp 请自行。。。<br>
-<img src="https://beyno.github.io/post-images/1574427579718.webp" alt=""></p>
+<img src="https://jpgbit.github.io/post-images/1574427579718.webp" alt=""></p>
 <p>如上图所示，V2Ray 配置信息，那么现在你可以测试一下了，看看是否能正常使用。</p>
 <p>如果你使用过 V2Ray 某些客户端，那么现在也可以测试一下配置了。(备注，可能某些 V2Ray 客户端的选项或描述略有不同，但事实上，上面的 V2Ray 配置信息已经足够详细，由于客户端的不同，请对号入座。)</p>
 ]]></content>
