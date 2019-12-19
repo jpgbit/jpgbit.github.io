@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" >
 
-<title>V2Ray | QianChen</title>
+<title>时间 | QianChen</title>
 <meta name="description" content="温故而知新">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -100,45 +100,57 @@
       <div class="main-container">
         <div class="content-container" data-aos="fade-up">
           <div class="post-detail">
-            <h2 class="post-title">V2Ray</h2>
-            <div class="post-date">2018-12-12</div>
-            
-              <div class="feature-container" style="background-image: url('https://jpgbit.github.io/post-images/v2ray.jpg')">
-              </div>
+            <h2 class="post-title">时间</h2>
+            <div class="post-date">2019-12-19</div>
             
             <div class="post-content">
-              <p>今天推荐 V2Ray 是肯定有原因的。</p>
-<p>此篇教程是转载，感觉非常不错，来此做个记录分享扩散一下也好。</p>
-<p>此 V2Ray 脚本完完全全是为小白量身定制的，本 V2Ray。</p>
-<p>V2Ray(Project V) 相对于 Shadowsocks，V2Ray 更像全能选手，拥有更多可选择的协议 / 传输载体 (Socks、HTTP、TLS、TCP、mKCP、WebSocket )，还有强大的路由功能，不仅仅于此，它亦包含 Shadowsocks 组件，你只需要安装 V2Ray，你就可以使用所有的 V2Ray 相关的特性包括使用 Shadowsocks，由于 V2Ray 是使用 GO 语言所撰写的，天生的平台部署优势，部署好服务端后，下载即可使用。</p>
-<p>我们需要先购买一款 VPS 用来搭建 V2Ray ，<br>
-当然你如果看完这篇文章还是想用 SS/SSR ，推荐使用 SS ，毕竟 SSR 作者已经被请喝茶了，源代码也删除了，SS 还在维护，</p>
-<p>🚩安装 V2Ray😏</p>
-<p>输入下面命令回车，你可以复制过去，然后在 Xshell 界面按 Shift + Insert 即可粘贴，不能按 Ctrl + V 的，Mac 下可以直接 commend + V 粘贴。<br>
-<img src="https://jpgbit.github.io/post-images/1574427573807.png" alt=""><br>
-bash &lt;(curl -s -L https://git.io/v2ray.sh)</p>
-<p>如果提示 curl: command not found ，那是因为你的 VPS 没装 Curl<br>
-ubuntu/debian 系统安装 Curl 方法: apt-get update -y &amp;&amp; apt-get install curl -y<br>
-centos 系统安装 Curl 方法: yum update -y &amp;&amp; yum install curl -y<br>
-安装好 curl 之后就能安装脚本了</p>
-<p>然后选择安装，即是输入 1 回车<br>
-选择传输协议，如果没有特别的需求，使用默认的 TCP 传输协议即可，直接回车<br>
-选择端口，如果没有特别的需求，使用默认的端口即可，直接回车<br>
-是否屏蔽广告，除非你真的需要，一般来说，直接回车即可，使用的是 kcp 协议，至于什么是 kcp 请自行。。。<br>
-<img src="https://jpgbit.github.io/post-images/1574427579718.webp" alt=""></p>
-<p>如上图所示，V2Ray 配置信息，那么现在你可以测试一下了，看看是否能正常使用。</p>
-<p>如果你使用过 V2Ray 某些客户端，那么现在也可以测试一下配置了。(备注，可能某些 V2Ray 客户端的选项或描述略有不同，但事实上，上面的 V2Ray 配置信息已经足够详细，由于客户端的不同，请对号入座。)</p>
+              <!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style>
+			span{
+				color: red;
+			}
+		</style>
+		<script>
+			function showT () {
+				var time=new Date();
+				var h=time.getHours();
+				var m=time.getMinutes();
+				var s=time.getSeconds();
+<pre><code>			if(h&lt;10){
+				h=&quot;0&quot;+h;
+			}
+			if(m&lt;10){
+				m=&quot;0&quot;+m;
+			}
+			if(s&lt;10){
+				s=&quot;0&quot;+s;
+			}
+			document.getElementById(&quot;t&quot;).innerText=h+&quot;:&quot;+m+&quot;:&quot;+s;
+			setTimeout(showT,&quot;1000&quot;);
+		}
+	&lt;/script&gt;
+&lt;/head&gt;
+&lt;body onload=&quot;showT()&quot;&gt;
+	现在的时间是：&lt;span id=&quot;t&quot;&gt;&lt;/span&gt;
+&lt;/body&gt;
+</code></pre>
+</html>
 
             </div>
             
-              <div class="tag-container">
-                
-                  <a href="https://jpgbit.github.io/tag/v2ray" class="tag">
-                    v2ray
-                  </a>
-                
-              </div>
             
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://jpgbit.github.io/post/xie-zai-a-li-yun-teng-xun-yun-fu-wu-qi-jian-kong-xi-tong-jiao-cheng">
+                  <h3 class="post-title">
+                    卸载阿里云腾讯云服务器监控系统教程
+                  </h3>
+                </a>
+              </div>
             
 
             

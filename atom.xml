@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jpgbit.github.io</id>
     <title>QianChen</title>
-    <updated>2019-12-19T08:10:14.250Z</updated>
+    <updated>2019-12-19T08:18:19.081Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://jpgbit.github.io"/>
     <link rel="self" href="https://jpgbit.github.io/atom.xml"/>
@@ -10,6 +10,107 @@
     <logo>https://jpgbit.github.io/images/avatar.png</logo>
     <icon>https://jpgbit.github.io/favicon.ico</icon>
     <rights>All rights reserved 2019, QianChen</rights>
+    <entry>
+        <title type="html"><![CDATA[颜色]]></title>
+        <id>https://jpgbit.github.io/post/yan-se</id>
+        <link href="https://jpgbit.github.io/post/yan-se">
+        </link>
+        <updated>2019-12-19T08:17:45.000Z</updated>
+        <content type="html"><![CDATA[<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style>
+			div{
+				border: 1px solid #000;
+				width: 200px;
+				height: 50px;
+				margin-bottom: 10px;
+			}
+		</style>
+		<script>
+<pre><code>		function setColor(obj){
+			var c=obj.value;	
+			var s=document.getElementById(&quot;s&quot;);
+			s.style.color=c;
+		}
+		
+		function setFont () {
+			var sf=document.getElementById(&quot;sf&quot;).value;
+			var s=document.getElementById(&quot;s&quot;);
+			s.style.fontSize=sf+&quot;px&quot;;
+		}
+	&lt;/script&gt;
+	
+&lt;/head&gt;
+&lt;body&gt;
+	&lt;span id=&quot;s&quot;&gt;请为文字选择颜色和字号&lt;/span&gt;
+	&lt;div&gt;
+		选择颜色：
+		&lt;br/&gt;
+		&lt;input type=&quot;radio&quot; name=&quot;c&quot; onclick=&quot;setColor(this);&quot; value=&quot;red&quot; /&gt;红色
+		&lt;input type=&quot;radio&quot; name=&quot;c&quot; onclick=&quot;setColor(this);&quot; value=&quot;green&quot; /&gt;绿色
+		&lt;input type=&quot;radio&quot; name=&quot;c&quot; onclick=&quot;setColor(this);&quot; value=&quot;blue&quot; /&gt;蓝色
+	&lt;/div&gt;
+	&lt;div&gt;
+		选择字号：
+		&lt;br/&gt;
+		&lt;select id=&quot;sf&quot; onchange=&quot;setFont();&quot;&gt;
+			&lt;option value=&quot;10&quot;&gt;10px&lt;/option&gt;
+			&lt;option value=&quot;20&quot;&gt;20px&lt;/option&gt;
+			&lt;option value=&quot;30&quot;&gt;30px&lt;/option&gt;
+			&lt;option value=&quot;40&quot;&gt;40px&lt;/option&gt;
+		&lt;/select&gt;
+	&lt;/div&gt;
+&lt;/body&gt;
+</code></pre>
+</html>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[时间]]></title>
+        <id>https://jpgbit.github.io/post/shi-jian</id>
+        <link href="https://jpgbit.github.io/post/shi-jian">
+        </link>
+        <updated>2019-12-19T08:17:06.000Z</updated>
+        <content type="html"><![CDATA[<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style>
+			span{
+				color: red;
+			}
+		</style>
+		<script>
+			function showT () {
+				var time=new Date();
+				var h=time.getHours();
+				var m=time.getMinutes();
+				var s=time.getSeconds();
+<pre><code>			if(h&lt;10){
+				h=&quot;0&quot;+h;
+			}
+			if(m&lt;10){
+				m=&quot;0&quot;+m;
+			}
+			if(s&lt;10){
+				s=&quot;0&quot;+s;
+			}
+			document.getElementById(&quot;t&quot;).innerText=h+&quot;:&quot;+m+&quot;:&quot;+s;
+			setTimeout(showT,&quot;1000&quot;);
+		}
+	&lt;/script&gt;
+&lt;/head&gt;
+&lt;body onload=&quot;showT()&quot;&gt;
+	现在的时间是：&lt;span id=&quot;t&quot;&gt;&lt;/span&gt;
+&lt;/body&gt;
+</code></pre>
+</html>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[卸载阿里云腾讯云服务器监控系统教程]]></title>
         <id>https://jpgbit.github.io/post/xie-zai-a-li-yun-teng-xun-yun-fu-wu-qi-jian-kong-xi-tong-jiao-cheng</id>
