@@ -2,14 +2,14 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jpgbit.github.io</id>
     <title>QianChen</title>
-    <updated>2019-12-30T13:51:40.222Z</updated>
+    <updated>2020-01-20T13:39:12.769Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://jpgbit.github.io"/>
     <link rel="self" href="https://jpgbit.github.io/atom.xml"/>
     <subtitle>温故而知新</subtitle>
     <logo>https://jpgbit.github.io/images/avatar.png</logo>
     <icon>https://jpgbit.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2019, QianChen</rights>
+    <rights>All rights reserved 2020, QianChen</rights>
     <entry>
         <title type="html"><![CDATA[Linux系统管理员应该知道的journalctl知识]]></title>
         <id>https://jpgbit.github.io/post/linux-xi-tong-guan-li-yuan-ying-gai-zhi-dao-de-journalctl-zhi-shi</id>
